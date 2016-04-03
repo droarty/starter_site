@@ -1,0 +1,17 @@
+!!! 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='/css/bootstrap.min.css', rel='stylesheet', media='screen')
+  body
+  .container
+    h1 Welcome #{user.name}
+    p.lead This area is for advanced usage
+    a(href="/") Go home
+    br
+    br
+    a(href="/logout") Logout
+
+  script(src='http://code.jquery.com/jquery.js')
+  script(src='js/bootstrap.min.js')
